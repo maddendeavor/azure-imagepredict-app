@@ -17,9 +17,9 @@ jobs:
 
       - name: Check out repository code
         uses: actions/checkout@v4
-#        with:
-#          submodules: true
-#          token: ${{ secrets.GITFLOW_PAT }}
+        with:
+          submodules: true
+          token: ${{ secrets.GITFLOW_PAT }}
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "The workflow is now ready to test your code on the runner."
 
