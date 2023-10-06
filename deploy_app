@@ -3,7 +3,7 @@
 # Function app and storage account names must be unique.
 storageName=azimagepredstor
 functionAppName=azImagePredictor
-myResourceGroup=maddendeavor
+myResourceGroup=maddendeavor-us
 region=eastus
 pythonVersion=3.10
 

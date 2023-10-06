@@ -16,6 +16,7 @@ gen/
 [Dd]ata/
 *venv*
 *[Bb]uild*
+.python_packages/
 
 ######################
 ## temporary files
